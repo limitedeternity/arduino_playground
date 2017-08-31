@@ -32,7 +32,7 @@ uint8_t _data[48] = {
 EthernetUDP Udp;
 
 void sendARP() {
-for (int i = 0; i < packetRate; i++) {
+  for (int i = 0; i < packetRate; i++) {
       digitalWrite(LED_BUILTIN, HIGH);
 
       for (int x = 0; x < 48; x++) {
@@ -47,6 +47,7 @@ for (int i = 0; i < packetRate; i++) {
   } 
   
 }
+
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 
