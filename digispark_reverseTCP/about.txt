@@ -1,0 +1,5 @@
+This firmware runs meterpreter payload when connected to Windows PC, which has powershell on it.
+
+Required:
+
+- Digispark ATtiny85
