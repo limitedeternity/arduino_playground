@@ -1,0 +1,6 @@
+Hardware password manager implementation.
+
+Requirements:
+- Digispark ATtiny85
+
+It takes name of service through serial (hello, pyserial) and writes password through DigiKeyboard.
