@@ -17,6 +17,11 @@ void setup() {
   Serial.println("Hardware serial is up.");
 
   mySerial.begin(4800);
+  
+  while (!mySerial) {
+    ;
+  }
+  
   mySerial.println("Software serial is up.");
 
   DigiKeyboard.update();
